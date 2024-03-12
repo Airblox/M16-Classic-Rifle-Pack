@@ -1,0 +1,16 @@
+{
+	"menu_l_global_value_m16classicpack": "This is an M16 Classic Pack item!",
+	"menu_l_global_value_counterfeit_chico_ws": " ",
+
+	"bm_wp_wpn_fps_ass_m16_retro": "M16A1 Retro Reissue",
+	"bm_wp_wpn_fps_ass_m16_retro_desc": "Gives the weapon more ammo, but also lower damage."
+
+	"bm_wp_wpn_fps_ass_m16_grenadier": "M16A2 Grenadier",
+	"bm_wp_wpn_fps_ass_m16_grenadier_desc": "Adds an M203 and switches to semi/burst."
+
+	"bm_wp_wpn_fps_ass_m16_rare": "M16A3 Assault Kit",
+	"bm_wp_wpn_fps_ass_m16_rare_desc": "Converts the M16 into an assault rifle. It's rare!",
+
+	"bm_wp_wpn_fps_ass_m16_tactical": "M16A4 Military Kit",
+	"bm_wp_wpn_fps_ass_m16_tactical_desc": "Adds an Acough Optic and a laser.",
+}

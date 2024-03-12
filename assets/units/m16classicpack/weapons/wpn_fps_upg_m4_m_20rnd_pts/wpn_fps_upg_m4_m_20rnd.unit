@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/m16classicpack/weapons/wpn_fps_upg_m4_m_20rnd_pts/wpn_fps_upg_m4_m_20rnd" />
+    <extensions>
+        <extension class="ScriptUnitData" name="unit_data" />
+    </extensions>
+</unit>

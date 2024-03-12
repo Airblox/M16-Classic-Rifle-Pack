@@ -1,0 +1,10 @@
+<materials version="3" group="weapon_group">
+    <material name="m4_mag_std" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+        <diffuse_texture file="units/m16classicpack/weapons/wpn_fps_upg_m4_m_20rnd_pts/tigg_20_df" mip="1"/>
+        <bump_normal_texture file="units/m16classicpack/weapons/wpn_fps_upg_m4_m_20rnd_pts/tigg_20_nm" mip="1"/>
+    </material>
+	<material name="mtr_bullet" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+		<diffuse_texture file="units/pd2_dlc_gage_assault/weapons/wpn_fps_bullet/wpn_fps_bullet_556_df" mip="1" />
+		<bump_normal_texture file="units/pd2_dlc_gage_assault/weapons/wpn_fps_bullet/wpn_fps_bullet_556_nm" mip="1" />
+	</material>
+</materials>

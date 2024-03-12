@@ -1,0 +1,20 @@
+<dynamic_object>
+	<diesel materials="units/m16classicpack/weapons/wpn_fps_ass_m16_m203/wpn_fps_ass_m16_m203" orientation_object="rp_wpn_fps_ass_contraband_gl_m203" />
+	<animations>
+		<animation_group name="reload_ul">
+			<object name="a_reload_grenade" enabled="true" />
+			<object name="a_reload_barrel" enabled="true" />
+		</animation_group>
+	</animations>
+	<graphics>
+		<object name="g_lock" enabled="true" />
+		   <graphic_group name="character" enabled="true" culling_object="c_block">
+        <object enabled="true" inherit_bounding_volume="co_culling" name="g_b" />
+ </graphic_group>
+ 	    <graphic_group name="character" enabled="true" culling_object="c_block">
+        <object enabled="true" inherit_bounding_volume="co_culling" name="g_base" />
+	</graphic_group name="cuban" enabled="true" culling_object="c_block">
+ 	<object name="g_grenade_shell" 	enabled="true" />
+		<object name="g_grenade_1" 		enabled="true" />
+	</graphics>
+</dynamic_object>

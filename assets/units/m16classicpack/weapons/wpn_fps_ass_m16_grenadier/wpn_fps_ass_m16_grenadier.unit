@@ -1,0 +1,6 @@
+<unit type="static" slot="1" >
+    <object file="units/m16classicpack/weapons/wpn_fps_ass_m16_grenadier/wpn_fps_ass_m16_grenadier" />
+    <extensions>
+        <extension name="unit_data" class="ScriptUnitData"/>
+    </extensions>
+</unit>

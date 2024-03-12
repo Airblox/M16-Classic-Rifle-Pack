@@ -1,0 +1,16 @@
+<unit type="wpn" slot="1">
+	<object file="units/m16classicpack/weapons/wpn_fps_ass_m16_m203/wpn_fps_ass_m16_m203" />
+	<dependencies>
+		<depends_on bnk="soundbanks/weapon_contraband"/>
+		<depends_on bnk="soundbanks/weapon_gl40"/>
+		<depends_on unit="units/pd2_dlc_chico/weapons/wpn_launcher_frag_m203/wpn_launcher_frag_m203"/>
+	</dependencies>
+	<extensions>
+		<extension name="unit_data" class="ScriptUnitData" />
+        <extension name="base" class="WeaponUnderbarrelLauncher">
+			<var name="name_id" value="m16a2_m203" />
+			<var name="anim" value="flip_up" />
+			<var name="launcher_projectile" value="launcher_m203" />
+		</extension>
+	</extensions>
+</unit>

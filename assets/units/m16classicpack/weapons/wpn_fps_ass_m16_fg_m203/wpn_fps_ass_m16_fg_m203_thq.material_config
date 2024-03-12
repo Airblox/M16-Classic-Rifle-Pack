@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_contraband">
+	<material name="mtr_fg" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP:NORMALMAP_UV1" version="2">
+		<diffuse_texture file="units/m16classicpack/weapons/wpn_fps_ass_m16_fg_m203/fg_df" mip="1" />
+		<bump_normal_texture file="units/m16classicpack/weapons/wpn_fps_ass_m16_fg_m203/fg_nm" mip="1" />
+	</material>
+</materials>

@@ -1,0 +1,7 @@
+M16A2
+- Animations
+	- Try to perfect the reload animation
+- Burst mode
+	- Disable full-auto
+	- Enable adaptive burst
+	- Disable burst mode for other weapons
