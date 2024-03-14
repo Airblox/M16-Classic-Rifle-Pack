@@ -1,4 +1,19 @@
 Hooks:PostHook(WeaponFactoryTweakData, "init", "m16a1_retro_init", function(self)
+    local function index_of(array, value)
+        for i, v in ipairs(array) do
+            if v == value then
+                return i
+            end
+        end
+        return nil
+    end
+    
+    local function remove_from_array(array, value)
+        if value then
+            table.remove(array, index_of(array, value))
+        end
+    end
+
     self.wpn_fps_ass_m16.override.wpn_fps_ass_m16_retro = {
         stats = {
             spread = -2,
@@ -75,9 +90,10 @@ Hooks:PostHook(WeaponFactoryTweakData, "init", "m16a1_retro_init", function(self
             burst_count = 3
         }
     }
-
+    
     table.insert(self.wpn_fps_ass_m16.uses_parts, "wpn_fps_ass_m16_m203")
     table.insert(self.wpn_fps_ass_m16.uses_parts, "wpn_fps_ass_m16a4_acog")
+
     table.insert(self.wpn_fps_ass_m16.uses_parts, "wpn_fps_ass_m16_retro")
     table.insert(self.wpn_fps_ass_m16.uses_parts, "wpn_fps_ass_m16_grenadier")
     table.insert(self.wpn_fps_ass_m16.uses_parts, "wpn_fps_ass_m16_rare")
